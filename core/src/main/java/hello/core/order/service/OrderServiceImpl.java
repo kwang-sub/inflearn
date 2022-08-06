@@ -1,21 +1,21 @@
 package hello.core.order.service;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.domain.Member;
 import hello.core.member.repository.MemberRepository;
-import hello.core.member.repository.MemoryMemberRepository;
 import hello.core.order.domain.Order;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
-    private  DiscountPolicy discountPolicy;
+    private final DiscountPolicy discountPolicy;
 
-    @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }

@@ -1,6 +1,5 @@
-package jpabook.jpashop;
+package jpabook.jpashop.sample;
 
-import lombok.Getter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

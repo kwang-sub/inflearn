@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.7.2'
+    id 'org.springframework.boot' version '2.4.3'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
     id 'java'
     id 'war'
@@ -26,6 +26,8 @@ dependencies {
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-devtools'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation 'javax.servlet:jstl'
 }
 
 tasks.named('test') {

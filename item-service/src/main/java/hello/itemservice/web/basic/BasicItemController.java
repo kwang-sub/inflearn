@@ -46,12 +46,14 @@ public class BasicItemController {
     }
 
     @PostMapping("/add")
-    public String save(@ModelAttribute Item item, RedirectAttributes rs) {
+    public String save(@ModelAttribute Item item, RedirectAttributes redirectAttributes) {
 
         log.debug("{}", item);
         Item saveItem = itemRepository.save(item);
+        redirectAttributes.addAttribute("itemId", saveItem.getId());
+        redirectAttributes.addFlashAttribute("status", true);
 //        model.addAttribute("item", item);
-        return "redirect:/basic/items/" + saveItem.getId();
+        return "redirect:/basic/items/{itemId}";
     }
 
     @GetMapping("/{itemId}/edit")

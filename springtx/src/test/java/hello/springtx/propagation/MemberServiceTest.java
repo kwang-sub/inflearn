@@ -5,6 +5,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.UnexpectedRollbackException;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
@@ -46,7 +47,7 @@ class MemberServiceTest {
     @Test
     void singleTx() throws Exception {
         //given
-        String username = "outerTxOff_success";
+        String username = "singleTx";
         //when
         memberService.joinV1(username);
         //then
@@ -54,4 +55,50 @@ class MemberServiceTest {
         assertThat(logRepository.find(username)).isPresent();
     }
 
+    @Test
+    void outerTxOn_success() throws Exception {
+        //given
+        String username = "outerTxOn_success";
+        //when
+        memberService.joinV1(username);
+        //then
+        assertThat(memberRepository.find(username)).isPresent();
+        assertThat(logRepository.find(username)).isPresent();
+    }
+
+    @Test
+    void outerTxOn_fail() throws Exception {
+        //given
+        String username = "로그예외outerTxOn_success";
+        //when
+        assertThatThrownBy(() -> memberService.joinV1(username))
+                .isInstanceOf(RuntimeException.class);
+        //then
+        assertThat(memberRepository.find(username)).isEmpty();
+        assertThat(logRepository.find(username)).isEmpty();
+    }
+
+    @Test
+    void recoverException_fail() throws Exception {
+        //given
+        String username = "로그예외_recoverException_fail";
+        //when
+        assertThatThrownBy(() -> memberService.joinV2(username))
+                .isInstanceOf(UnexpectedRollbackException.class);
+        //then
+        assertThat(memberRepository.find(username)).isEmpty();
+        assertThat(logRepository.find(username)).isEmpty();
+    }
+
+    @Test
+    void recoverException_success() throws Exception {
+        //given
+        String username = "로그예외_recoverException_success";
+        //when
+        memberService.joinV2(username);
+
+        //then
+        assertThat(memberRepository.find(username)).isPresent();
+        assertThat(logRepository.find(username)).isEmpty();
+    }
 }

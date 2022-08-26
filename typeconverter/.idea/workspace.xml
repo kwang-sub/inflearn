@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="add9f748-c89b-42ff-aeea-e1946c9bfddf" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DRPRdgpCAcH2fbpRQaNjG6dNrB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "8501a8cfc3f53b4f79a2b33f0305a235"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.typeconverter.formatter" />
+      <recent name="hello.typeconverter.converter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FormattingConversionServiceTest.formattingConversionService">
+    <configuration name="ConversionServiceTest.conversionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="typeconverter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.typeconverter.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.typeconverter.converter" />
+      <option name="MAIN_CLASS_NAME" value="hello.typeconverter.converter.ConversionServiceTest" />
+      <option name="METHOD_NAME" value="conversionService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest.IpPortToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="typeconverter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.typeconverter.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.typeconverter.converter" />
+      <option name="MAIN_CLASS_NAME" value="hello.typeconverter.converter.ConverterTest" />
+      <option name="METHOD_NAME" value="IpPortToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormattingConversionServiceTest.formattingConversionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="typeconverter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.typeconverter.formatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.typeconverter.formatter" />
+      <option name="MAIN_CLASS_NAME" value="hello.typeconverter.formatter.FormattingConversionServiceTest" />
+      <option name="METHOD_NAME" value="formattingConversionService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyNumberFormatterTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="typeconverter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.typeconverter.formatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.typeconverter.formatter" />
+      <option name="MAIN_CLASS_NAME" value="hello.typeconverter.formatter.MyNumberFormatterTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyNumberFormatterTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="typeconverter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.typeconverter.formatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.typeconverter.formatter" />
+      <option name="MAIN_CLASS_NAME" value="hello.typeconverter.formatter.MyNumberFormatterTest" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeconverterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="typeconverter.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.typeconverter.TypeconverterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FormattingConversionServiceTest.formattingConversionService" />
+        <item itemvalue="JUnit.MyNumberFormatterTest.print" />
+        <item itemvalue="JUnit.MyNumberFormatterTest.parse" />
+        <item itemvalue="JUnit.ConversionServiceTest.conversionService" />
+        <item itemvalue="JUnit.ConverterTest.IpPortToString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="add9f748-c89b-42ff-aeea-e1946c9bfddf" name="Changes" comment="" />
+      <created>1660658918652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660658918652</updated>
+      <workItem from="1660658920880" duration="3205000" />
+      <workItem from="1660700811596" duration="7526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

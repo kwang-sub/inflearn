@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24175c6d-b540-490b-ae68-1cdad5f7cfe0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DNO9XJfBzyS4y4BiBYlY0pUR5J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/workspace/inflearn/validation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "c266fc852aac1a2fd6868a9715d4ae15"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\inflearn\message\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
+    <configuration name="MessageSourceTest.argumentMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.itemservice.message" />
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.message.MessageSourceTest" />
+      <option name="METHOD_NAME" value="argumentMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSourceTest.defaultLang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.itemservice.message" />
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.message.MessageSourceTest" />
+      <option name="METHOD_NAME" value="defaultLang" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSourceTest.enLang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.itemservice.message" />
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.message.MessageSourceTest" />
+      <option name="METHOD_NAME" value="enLang" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSourceTest.helloMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.itemservice.message" />
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.message.MessageSourceTest" />
+      <option name="METHOD_NAME" value="helloMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSourceTest.notFoundMessageCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="message.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.itemservice.message" />
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.message.MessageSourceTest" />
+      <option name="METHOD_NAME" value="notFoundMessageCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MessageSourceTest.enLang" />
+        <item itemvalue="JUnit.MessageSourceTest.defaultLang" />
+        <item itemvalue="JUnit.MessageSourceTest.argumentMessage" />
+        <item itemvalue="JUnit.MessageSourceTest.notFoundMessageCode" />
+        <item itemvalue="JUnit.MessageSourceTest.helloMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24175c6d-b540-490b-ae68-1cdad5f7cfe0" name="Changes" comment="" />
+      <created>1660535924573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660535924573</updated>
+      <workItem from="1660535926474" duration="4431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
